@@ -8,9 +8,9 @@
 #SBATCH --output=/data/niklas/jobs/%x-%j.out           # output file name
 #SBATCH --exclusive
 
-######################
-### Set enviroment ###
-######################
+#######################
+### Set environment ###
+#######################
 cd /home/niklas/OLMoE
 source /env/bin/start-ctx-user
 conda activate llmoe
